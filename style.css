@@ -193,7 +193,7 @@ color: rgba(255, 255, 255, 0.26);
   background-color:black;
 }
 .section-container{
-  height: 600px;
+  height: 900px;
     background-color:black;
    /*  background-image: url(/img/background-img.jpg); */
  
@@ -331,7 +331,9 @@ color: #FFFFFF;
   }
   li.ul-skill-item{
     color: #FFEA00;
+ 
   }
+
   li span{
     color:#FFFFFF;
     font-size: 30px;
@@ -340,6 +342,19 @@ color: #FFFFFF;
     font-weight: normal;
     text-transform: uppercase;
     line-height: 50px;
+  }
+  .avatar{
+    height: 300px;
+    margin-left: 500px;
+  }
+
+  .github{
+    height: 40px;
+  }
+
+  .rs-school{
+    height: 40px;
+    background-color:#FFEA00
   }
 
   .code{
