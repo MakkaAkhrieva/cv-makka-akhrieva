@@ -1,1 +1,1 @@
-# cv-makka-akhrieva
+# rsschool-cv
