@@ -122,154 +122,150 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 .container {
-    margin: 0 auto;
-    max-width: 1440px;
+  margin: 0 auto;
+  max-width: 1440px;
   /*   width: calc(100% - 40px); */
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-.header-wrapper{
-    background-color: black;
-} 
-.header-container{
-    height: 200px;
-    background-color:black;
-   
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 76px;
-    padding-top: 74px;
+.header-wrapper {
+  background-color: black;
 }
-.logo_main_text{
-   
-font-family: 'Kaushan Script', cursive;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 108.4%;
-/* or 65px */
+.header-container {
+  height: 200px;
+  background-color: black;
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 76px;
+  padding-top: 74px;
+}
+.logo_main_text {
+  font-family: "Kaushan Script", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 108.4%;
+  /* or 65px */
 
-color: #FFEA00;
-}
-.logo_text{
-    font-family: Fredoka One;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 19px;
-letter-spacing: 0.12em;
-text-transform: uppercase;
+  display: flex;
+  align-items: center;
 
-color: rgba(255, 255, 255, 0.26);
+  color: #ffea00;
 }
-.nav-wrapper{
-    width: 900px;
-  }
-  .header-nav {
-    display: flex;
-    justify-content: space-between;
-        
+.logo_text {
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.26);
 }
- .header-nav-item {
-    color: whitesmoke;
-    letter-spacing: 2px;
-    font-family: 'Glory', sans-serif;
-    font-weight: 200;
-    font-size: 25px;
- }
-  .header-nav-item:hover{
-    color: #FFEA00;
-    cursor: pointer;
- }
-.section-wrapper{
-  background-color:black;
+.nav-wrapper {
+  width: 900px;
 }
-.section-container{
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-item {
+  color: whitesmoke;
+  letter-spacing: 2px;
+  font-family: "Glory", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+.header-nav-item:hover {
+  color: #ffea00;
+  cursor: pointer;
+}
+.avatar {
+  height: 300px;
+  margin-left: 500px;
+}
+.section-wrapper {
+  background-color: black;
+}
+.section-container {
   height: 900px;
-    background-color:black;
-   /*  background-image: url(/img/background-img.jpg); */
- 
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-.section_name{
-font-family: Kaushan Script;
-font-style: normal;
-font-weight: normal;
-font-size: 120px;
-display: flex;
-justify-content: center;
-color: rgba(255, 255, 255, 0.2);
+  background-color: black;
+  /*  background-image: url(/img/background-img.jpg); */
 
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
-.section_hr{
+.section_name {
+  font-family: Kaushan Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.2);
+}
+.section_hr {
   height: 2px;
   width: 100%;
-  background-color: #FFEA00;
+  background-color: #ffea00;
   border: none;
-  
 }
-.section_text{
-font-family: 'Glory', sans-serif;
-font-size: 35px;
-line-height: 168.4%;
-display: flex;
-justify-content: center;
-text-align: center;
-letter-spacing: 0.06em;
-margin-top: 50px;
+.section_text {
+  font-family: "Glory", sans-serif;
+  font-size: 35px;
+  line-height: 168.4%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 50px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-.visiting-wrapper{
-  background-color:white;
+.visiting-wrapper {
+  background-color: white;
 }
-.visiting-container{
+.visiting-container {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color:white;
+  background-color: white;
 }
-.visiting-header{
-  font-family: 'Kaushan Script', cursive;
+.visiting-header {
+  font-family: "Kaushan Script", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 80px;
   letter-spacing: 5px;
-/*   text-transform: uppercase; */
-  color:#FFEA00;
+  /*   text-transform: uppercase; */
+  color: #ffea00;
 }
-.visiting-red-line{
-  background-color:black ;
-    margin-top: 25px;
-    height: 3px;
-    width: 100%;
-    border:none;
-  }
-  .visiting-flex{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 78px 60px;
-    padding-top: 75px;
-    
-
-  }
-  .visiting-flex-item{
-    background-color:white;
-    width: 440px;
-    height: 422px;
-    
-  }
- /*  .underline-title {
+.visiting-red-line {
+  background-color: black;
+  margin-top: 25px;
+  height: 3px;
+  width: 100%;
+  border: none;
+}
+.visiting-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 78px 60px;
+  padding-top: 75px;
+}
+.visiting-flex-item {
+  background-color: white;
+  width: 440px;
+  height: 422px;
+}
+/*  .underline-title {
     position: relative;
   }
   .underline-title::after {
@@ -281,100 +277,84 @@ color: #FFFFFF;
     height: 3px;
     background-color: red;
   } */
-  a.visiting-flex-item{
-    display:block;
-  }
-  .visiting-flex-picture{
-    width: 440px;
-    height: 248px;
-  }
-  .visiting-flex-text{
-    padding-top: 25px;
-    font-family: 'Glory', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #000000;
-  }
+a.visiting-flex-item {
+  display: block;
+}
+.visiting-flex-picture {
+  width: 440px;
+  height: 248px;
+}
+.visiting-flex-text {
+  padding-top: 25px;
+  font-family: "Glory", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
 
- 
-  .visiting-text-3{
-    padding-top: 10px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-    color: #000000;
-  }
-  .flex-container{
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-  }
-  .skills-name{
-    color: #FFEA00;
-    text-transform: uppercase; 
-    font-family: 'Glory', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 5px;
-  }
- ul.ul-skill{
+.visiting-text-3 {
+  padding-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  color: #000000;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills-name {
+  color: #ffea00;
+  text-transform: uppercase;
+  font-family: "Glory", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+ul.ul-skill {
   list-style: disc;
   margin-top: 20px;
   margin-left: 20px;
-  
-  color: #FFEA00;
-  }
-  li.ul-skill-item{
-    color: #FFEA00;
- 
-  }
 
-  li span{
-    color:#FFFFFF;
-    font-size: 30px;
-    font-family: 'Glory', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 50px;
-  }
-  .avatar{
-    height: 300px;
-    margin-left: 500px;
-  }
+  color: #ffea00;
+}
+li.ul-skill-item {
+  color: #ffea00;
+}
 
-  .github{
-    height: 40px;
-  }
+li span {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Glory", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 50px;
+}
 
-  .rs-school{
-    height: 40px;
-    background-color:#FFEA00
-  }
+.code {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 30px;
+}
 
-  .code{
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-
-  .form {
-    padding: 4rem 2rem;
-    margin: 0 auto;
-    width: 100%;
+.form {
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .form-wrapper {
-    max-width: 500px;
-    margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 /* .required {
@@ -382,48 +362,51 @@ color: #FFFFFF;
 } */
 
 .form__group {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-input, textarea {
-    display: block;
-    width: 100%;
-    max-width: 100%;;
-    height: 2.75rem;
-    border: none;
-    border-bottom: 2px solid #FFEA00;
-    background-color:black
+input,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 2.75rem;
+  border: none;
+  border-bottom: 2px solid #ffea00;
+  background-color: black;
 }
 
 textarea {
-    height: 5rem;
-    width: 100%;
-    max-width: 100%;;
-    border: none;
-    border-bottom: 2px solid #FFEA00;
+  height: 5rem;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  border-bottom: 2px solid #ffea00;
 }
 
-input:hover, textarea:hover {
-    border-bottom: 2px solid #FFEA00;
+input:hover,
+textarea:hover {
+  border-bottom: 2px solid #ffea00;
 }
 
-input:focus, textarea:focus {
-    border-bottom: 2px solid #FFEA00;
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #ffea00;
 }
 
 .btn {
-    display: block;
-    text-transform: uppercase;
-    font-family: 'Glory', sans-serif;
-    font-weight: 900;
-    font-size: 0.8rem;
-    background-color: #FFEA00;
-    border: 2px solid #FFEA00;
-    color: black;
-    padding: 0.5rem 1.5rem;
-    border-radius: 3rem;
-    letter-spacing: 1px;
-    cursor: pointer;
+  display: block;
+  text-transform: uppercase;
+  font-family: "Glory", sans-serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+  background-color: #ffea00;
+  border: 2px solid #ffea00;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 /* .btn:hover, .btn:active {
@@ -432,22 +415,28 @@ input:focus, textarea:focus {
     color: white;
     font-weight: 900;
 } */
-.name{
+.name {
   text-transform: uppercase;
-    font-family: 'Glory', sans-serif;
-    color: #FFEA00;
-    margin-bottom: 30px;
-    font-size: 20px;
+  font-family: "Glory", sans-serif;
+  color: #ffea00;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
-.contact-name{
-  font-family: 'Glory', sans-serif;
-    color: white;
-    font-size: 25px;
-    margin-bottom: 20px;
-    margin-left: 245px;
+.contact-name {
+  font-family: "Glory", sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 245px;
 }
-a{
+a {
   color: white;
 }
+.github {
+  height: 40px;
+}
 
-
+.rs-school {
+  height: 40px;
+  background-color: #ffea00;
+}
